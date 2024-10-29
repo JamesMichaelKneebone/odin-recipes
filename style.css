@@ -1,0 +1,85 @@
+body {
+    background-color: rgb(247, 84, 84);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+/* Shared styles */
+.subheader,
+.recipesubheader {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    font-style: italic; /* Optional: gives a nice contrast to the title */
+}
+
+/* Specific styles */
+.recipesubheader {
+    text-decoration: underline;
+    font-size: 30px;
+}
+
+.header {
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.homepagelistcontainer {
+    text-align: center;
+    margin-top: 10px
+}
+
+.homepagerecipelist {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+}
+
+.recipepageingredientandstepslist {
+    color: white;
+}
+
+.recipepageingredientlistandsetpscontainer {
+    margin-top: 25px;
+}
+
+.homepagerecipelist li {
+    margin: 10px 0; /* Add space between items */
+    color: white;
+}
+
+.homepagerecipelist a {
+    color: rgb(255, 255, 255); /* Default text color */
+    font-size: 20px; /* Font size for links */
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.homepagerecipelist a:hover {
+    color: rgb(255, 235, 200); /* Slightly lighter color on hover */
+}
+
+.picture {
+    border-radius: 50%;
+}
+
+.containererpicture {
+    text-align: center;
+    padding: 10px;
+}
+
+.recipedescriptions {
+    font-size: 16px;
+    color: white;
+    max-width: 240px;
+    text-align: center;
+}
+
+.invicisblefooter {
+    margin-bottom: 50px;
+}
